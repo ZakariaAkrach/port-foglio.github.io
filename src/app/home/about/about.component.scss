@@ -1,0 +1,24 @@
+.container {
+  padding-top: 20px;
+}
+
+
+/* Aggiungi il background grigio leggero alla griglia delle skills */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+/* Imposta la larghezza per avere 5 skills per riga */
+.skills__skill {
+  flex-basis: calc(20% - 10px); /* 20% - margine tra le skills */
+  padding: 10px;
+  background-color: #f4f4f4; /* Colore di sfondo bianco per le skills */
+  border: 1px solid #ddd; /* Bordo sottile per le skills */
+  text-align: center;
+  border-radius: 5px; /* Bordo arrotondato */
+}
+
