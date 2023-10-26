@@ -9,6 +9,8 @@ import { HeaderPrincipaleComponent } from './home/header-principale/header-princ
 import { AboutComponent } from './home/about/about.component';
 import { EsperienzaComponent } from './home/esperienza/esperienza.component';
 import { ContattiComponent } from './home/contatti/contatti.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +24,8 @@ import { ContattiComponent } from './home/contatti/contatti.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

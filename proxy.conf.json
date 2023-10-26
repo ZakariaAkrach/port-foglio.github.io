@@ -1,0 +1,6 @@
+{
+  "/api/": {
+    "target": "https://zakaria-portfoglio-cbcba.web.app",
+    "secure": false
+  }
+}
