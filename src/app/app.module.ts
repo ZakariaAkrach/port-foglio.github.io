@@ -10,6 +10,8 @@ import { AboutComponent } from './home/about/about.component';
 import { EsperienzaComponent } from './home/esperienza/esperienza.component';
 import { ContattiComponent } from './home/contatti/contatti.component';
 import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './home/home/home.component';
+import { CoomingSoonComponent } from './shared/cooming-soon/cooming-soon.component';
 
 
 @NgModule({
@@ -21,6 +23,8 @@ import { HttpClientModule } from '@angular/common/http';
     AboutComponent,
     EsperienzaComponent,
     ContattiComponent,
+    CoomingSoonComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
